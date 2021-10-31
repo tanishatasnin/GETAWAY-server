@@ -95,6 +95,10 @@ res.json(result)
 app.get('/', (req,res)=>{
                res.send('running travel server');
                })
+        //        _____ 
+               app.get('/hello', (req,res)=>{
+                res.send('running hellow');
+                })
                 
                app.listen(port ,()=>{
                               console.log("running genius server on porat", port)
